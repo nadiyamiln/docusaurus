@@ -121,7 +121,7 @@ export default async function createConfigAsync() {
   return {
     title: 'Docusaurus',
     tagline: getLocalizedConfigValue('tagline'),
-    organizationName: 'facebook',
+    organizationName: 'nadiyamiln',
     projectName: 'docusaurus',
     baseUrl,
     baseUrlIssueBanner: true,
@@ -270,7 +270,7 @@ export default async function createConfigAsync() {
             if (locale !== defaultLocale) {
               return `https://crowdin.com/project/docusaurus-v2/${locale}`;
             }
-            return `https://github.com/facebook/docusaurus/edit/main/website/${versionDocsDirPath}/${docPath}`;
+            return `https://github.com/nadiyamiln/docusaurus/edit/main/website/${versionDocsDirPath}/${docPath}`;
           },
           remarkPlugins: [npm2yarn],
           editCurrentVersion: true,
@@ -402,7 +402,7 @@ export default async function createConfigAsync() {
               // We want users to submit updates to the upstream/next version!
               // Otherwise we risk losing the update on the next release.
               const nextVersionDocsDirPath = 'docs';
-              return `https://github.com/facebook/docusaurus/edit/main/website/${nextVersionDocsDirPath}/${docPath}`;
+              return `https://github.com/nadiyamiln/docusaurus/edit/main/website/${nextVersionDocsDirPath}/${docPath}`;
             },
             admonitions: {
               keywords: ['my-custom-admonition'],
@@ -445,7 +445,7 @@ export default async function createConfigAsync() {
               if (locale !== defaultLocale) {
                 return `https://crowdin.com/project/docusaurus-v2/${locale}`;
               }
-              return `https://github.com/facebook/docusaurus/edit/main/website/${blogDirPath}/${blogPath}`;
+              return `https://github.com/nadiyamiln/docusaurus/edit/main/website/${blogDirPath}/${blogPath}`;
             },
             remarkPlugins: [npm2yarn],
             postsPerPage: 5,
@@ -629,13 +629,13 @@ export default async function createConfigAsync() {
                 value: '<hr style="margin: 0.3rem 0;">',
               },
               {
-                href: 'https://github.com/facebook/docusaurus/issues/3526',
+                href: 'https://github.com/nadiyamiln/docusaurus/issues/3526',
                 label: 'Help Us Translate',
               },
             ],
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/nadiyamiln/docusaurus',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
@@ -700,7 +700,7 @@ export default async function createConfigAsync() {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/nadiyamiln/docusaurus',
               },
               {
                 label: 'Twitter',
